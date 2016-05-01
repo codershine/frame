@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\core\mem\memoryOverride.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\net\Net.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\net\BufferEvent.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\net\Reactor.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\net\Acceptor..cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\net\Connector.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\net\Listener.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\net\EasyReadHandle.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mem">
+      <UniqueIdentifier>{d33001a7-5eb2-4301-be8e-c6a8d214c5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{993f3817-9d16-4342-82f2-57c9a5d26d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patten">
+      <UniqueIdentifier>{b4d7a12b-4023-488d-a507-100ab9e64d8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\stdafx.h" />
+    <ClInclude Include="..\..\src\core\mem\memoryOverride.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\export.h" />
+    <ClInclude Include="..\..\src\core\mem\alloca.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\patten\Singleton.h">
+      <Filter>patten</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\Net.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\BufferEvent.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\Reactor.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\ReactorHandle.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\Acceptor.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\Connector.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\Listener.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\ConnectorHandle.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\ListenerHandle.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\net\EasyReadHandle.h">
+      <Filter>net</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
